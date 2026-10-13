@@ -1,0 +1,57 @@
+# Compiled binaries and target directories
+**/target/
+**/bin/
+**/*.class
+**/*.jar
+!**/lib/*.jar
+
+# Python cache & virtual environments
+**/__pycache__/
+**/*.py[cod]
+*.class
+.venv/
+venv/
+env/
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# Screenshots and images
+screenshots/
+Screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Documents and Reports
+*.docx
+*.doc
+*.pdf
+*.xlsx
+*.pptx
+assignment_extracted.txt
+
+# Report generator scripts
+*report*.py
+*screenshot*.py
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+Thumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
