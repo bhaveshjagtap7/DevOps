@@ -1,0 +1,31 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude sensitive variables files
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used only locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Generated private keys
+*.pem
+*.id_rsa
+*.key
+tf-runner-key.pem
+
+# CLI configuration files
+.terraformrc
+terraform.rc
