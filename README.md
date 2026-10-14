@@ -1,8 +1,14 @@
-# DevOps Engineering Projects & Assignments
+﻿# DevOps Engineering Projects & Assignments
 
 Welcome to the central repository for **DevOps Engineering Projects and Assignments** by **[Bhavesh Jagtap](https://github.com/bhaveshjagtap7)**. This repository showcases end-to-end hands-on implementations of modern DevOps methodologies, CI/CD automation, containerization, container orchestration, and Infrastructure as Code (IaC).
 
 ---
+
+## CI/CD Status
+
+[![DevOps Multi-Module CI](https://github.com/bhaveshjagtap7/DevOps/actions/workflows/devops-ci.yml/badge.svg)](https://github.com/bhaveshjagtap7/DevOps/actions)
+
+> For complete deployment and verification instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md).
 
 ## Repository Structure
 
