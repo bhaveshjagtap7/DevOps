@@ -72,4 +72,3 @@ Welcome to the central repository for **DevOps Engineering Projects and Assignme
 
 **Bhavesh Jagtap**  
 - **GitHub**: [@bhaveshjagtap7](https://github.com/bhaveshjagtap7)  
-- **Email**: bhaveshjagtap0723@gmail.com
