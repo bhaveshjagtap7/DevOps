@@ -1,4 +1,4 @@
-# Compiled binaries and target directories
+﻿# Compiled binaries and target directories
 **/target/
 **/bin/
 **/*.class
@@ -8,40 +8,71 @@
 # Python cache & virtual environments
 **/__pycache__/
 **/*.py[cod]
-*.class
 .venv/
 venv/
 env/
+.pytest_cache/
+.coverage
+htmlcov/
 
-# Terraform
+# Terraform sensitive & state files
 **/.terraform/
 *.tfstate
 *.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
 *.tfvars
 *.tfvars.json
 .terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
 
-# Screenshots and images
+# Private keys, certificates and credentials
+*.pem
+*.key
+*.id_rsa
+*.pkcs12
+*.p12
+*.pfx
+*.cer
+*.crt
+tf-runner-key.pem
+credentials
+credentials.json
+client_secret*.json
+.env
+.env.*
+!.env.example
+
+# Screenshots, media, and raw capture assets
 screenshots/
 Screenshots/
 *.png
 *.jpg
 *.jpeg
 *.gif
+*.bmp
+*.ico
+*.mp4
+*.mov
 
-# Documents and Reports
+# Office Documents and Assignment Reports
 *.docx
 *.doc
 *.pdf
 *.xlsx
 *.pptx
+*.odt
 assignment_extracted.txt
 
 # Report generator scripts
 *report*.py
 *screenshot*.py
 
-# IDE and OS files
+# IDE and OS metadata
 .idea/
 .vscode/
 *.swp
@@ -52,6 +83,6 @@ Desktop.ini
 desktop.ini
 .DS_Store
 
-# Temporary files
+# Temporary files and logs
 *.tmp
 *.log
